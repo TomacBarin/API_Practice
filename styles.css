@@ -17,19 +17,21 @@ img {
     border-radius: 15px;
 }
 
-button, input {
+button {
     background-color: rgb(9, 255, 214);
     font-family: Futura;
     border-radius: 5px;
 }
 
-.inputField {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+input {
+    padding: 8px;
+    border: 1px solid rgb(9, 255, 214);
+    border-radius: 5px;
+    font-family: Futura;
+    background-color: rgb(55, 55, 55); 
+    color: rgb(9, 255, 214); 
 }
+
 
 
 h2 {

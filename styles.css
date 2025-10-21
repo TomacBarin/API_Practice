@@ -17,8 +17,22 @@ img {
     border-radius: 15px;
 }
 
-button {
+button, input {
     background-color: rgb(9, 255, 214);
     font-family: Futura;
-    border-radius: 5px;;
+    border-radius: 5px;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h2 {
+    font-size: 25px;
+    color: rgb(9, 255, 214);
 }

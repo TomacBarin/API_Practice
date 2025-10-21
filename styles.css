@@ -1,0 +1,13 @@
+.flexCatz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    height: 100vh;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 15px;
+}

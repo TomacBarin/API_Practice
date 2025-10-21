@@ -3,20 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <img src="#" />
-    <script>
-      const img = document.querySelector("img");
-      fetch(
-        "https://api.giphy.com/v1/gifs/translate?api_key=lbTbjqF93pBniUzI9ZV23WcwcZq7Da7G&s=cats"
-      )
-        .then(function (response) {
-          return response.json();
-        })
-        .then(function (response) {
-          img.src = response.data.images.original.url;
-        });
-    </script>
+    <section class="flexCatz">
+      <img src="#" />
+      <button class="btn">Click me for moar catz!</button>
+    </section>
   </body>
 </html>

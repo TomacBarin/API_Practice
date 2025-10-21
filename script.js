@@ -2,7 +2,6 @@ const btnHtml = document.querySelector(".btn");
 const imgHtml = document.querySelector("img");
 
     function fetchNewCatGif() {
-      const img = document.querySelector("img");
       fetch(
         "https://api.giphy.com/v1/gifs/translate?api_key=lbTbjqF93pBniUzI9ZV23WcwcZq7Da7G&s=cats"
       )
@@ -10,7 +9,7 @@ const imgHtml = document.querySelector("img");
           return response.json();
         })
         .then(function (response) {
-          img.src = response.data.images.original.url;
+          imgHtml.src = response.data.images.original.url;
         });
     }
 

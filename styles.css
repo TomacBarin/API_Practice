@@ -38,3 +38,9 @@ h2 {
     font-size: 25px;
     color: rgb(9, 255, 214);
 }
+
+#error {
+    color: rgb(9, 255, 214);
+    font-family: Futura;
+    margin: 0;
+}

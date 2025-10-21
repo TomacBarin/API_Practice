@@ -43,4 +43,5 @@ h2 {
     color: rgb(9, 255, 214);
     font-family: Futura;
     margin: 0;
+    display: none; 
 }

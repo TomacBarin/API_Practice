@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(55, 55, 55) ;
+    font-family: Futura;
+}
+
 .flexCatz {
     display: flex;
     justify-content: center;
@@ -8,6 +13,12 @@
 }
 
 img {
-    border: 1px solid black;
+    border: 1px solid rgb(9, 255, 214);
     border-radius: 15px;
+}
+
+button {
+    background-color: rgb(9, 255, 214);
+    font-family: Futura;
+    border-radius: 5px;;
 }
